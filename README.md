@@ -64,4 +64,3 @@
 	- `columns` - [“file_name”, “file_name_”]
 	- `file_name` - test wav 폴더에 존재하는 임의의 wav파일명(ex. idx000001)
 	- `file_name_` - test wav 폴더에 존재하는 임의의 wav파일명(ex. idx000002)
-	- `test_data`에 label column을 추가하여 추론값을 대입 (최종 제출 format)
