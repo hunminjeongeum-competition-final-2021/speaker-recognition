@@ -44,13 +44,10 @@
 	- `file_name` – wav 폴더에 존재하는 임의의 wav파일명 (ex. idx000001)
 	- `speaker` – 각 wav파일에 매칭되는 특정 화자(ex. S000013_1, s000181_1 *소문자 대문자 섞여있음)
 - 예를들어 idx000001 파일의 speaker값이 S000013_1이고 idx000002 파일의 speaker값이 S000013_1이면 두 음성은 같은 발화자
-Test Dataset
-- `root_path/test/test_data/wav/` (3,254개의 wav파일 *확장자 없음)
-
 
 ### Test Dataset
+- `root_path/test/test_data/wav/` (3,254개의 wav파일 *확장자 없음)
 
-- `root_path/test/test_data/wav/` (1,221개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
   idx000001
@@ -63,8 +60,7 @@ Test Dataset
   idx003253
   idx003254
   ```
-- `root_path/test/test_data/test_data`
-- test_data (DataFrame 형식, 32,391rows)
+- `root_path/test/test_data/test_data` (DataFrame 형식, 32,391rows)
 	- `columns` - [“file_name”, “file_name_”]
 	- `file_name` - test wav 폴더에 존재하는 임의의 wav파일명(ex. idx000001)
 	- `file_name_` - test wav 폴더에 존재하는 임의의 wav파일명(ex. idx000002)
