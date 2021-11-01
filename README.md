@@ -40,8 +40,8 @@
 - `root_path/train/train_data/train_info`
 - `train_info` (DataFrame 형식, 63,782 rows)
 	- `columns` - [“file_name”, “speaker”]
-	- `file_name` – wav 폴더에 존재하는 임의의 wav파일명 (ex. idx000001)
-	- `speaker` – 각 wav파일에 매칭되는 특정 화자(ex. S000013_1, s000181_1 *소문자 대문자 섞여있음)
+		- `file_name` – wav 폴더에 존재하는 임의의 wav파일명 (ex. idx000001)
+		- `speaker` – 각 wav파일에 매칭되는 특정 화자(ex. S000013_1, s000181_1 *소문자 대문자 섞여있음)
 - 예를들어 idx000001 파일의 speaker값이 S000013_1이고 idx000002 파일의 speaker값이 S000013_1이면 두 음성은 같은 발화자
 
 ### Test Dataset
